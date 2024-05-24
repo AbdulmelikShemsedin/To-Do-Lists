@@ -1,0 +1,84 @@
+*,
+::before,
+::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: 3px solid grey;
+  background-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button{
+  padding: 5px;
+  border-radius: 6px;
+}
+h1{
+  margin: 10px;
+}
+input[type="text"]{
+  padding: 5px;
+  border-radius: 6px;
+}
+.addInput button{
+  background-color: hsl(240, 80%, 55%);
+  color: aliceblue;
+}
+.addInput button:hover{
+  background-color: hsl(240, 80%, 40%);
+}
+ol li{
+  background-color: blue;
+  color: aliceblue;
+  margin: 7px;
+  padding: 5px;
+  border-radius: 7px;
+  width: auto;
+}
+ol li div{
+  display: flex;
+}
+ol li div span{
+  flex: 1;
+  display: block;
+  margin-right: 5px;
+}
+ol li div div button:first-of-type{
+  background-color: hsl(0, 79%, 72%);
+}
+ol li div div button:first-of-type:hover{
+  background-color: hsl(0, 79%, 57%);
+}
+ol li div div button:first-of-type:active{
+  background-color: hsl(0, 79%, 72%);
+}
+ol li div div button:nth-of-type(2){
+  background-color: hsl(180, 100%, 50%);
+}
+ol li div div button:nth-of-type(2):hover{
+  background-color: hsl(180, 100%, 35%);
+}
+ol li div div button:nth-of-type(2):active{
+  background-color: hsl(180, 100%, 50%);
+}
+ol li div div button:nth-of-type(3){
+  background-color: hsl(180, 100%, 50%);
+}
+ol li div div button:nth-of-type(3):hover{
+  background-color: hsl(180, 100%, 35%);
+}
+ol li div div button:nth-of-type(3):active{
+  background-color: hsl(180, 100%, 50%);
+}
